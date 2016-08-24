@@ -1,0 +1,553 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09671CC62CA39A1DC00C8AB654A6692A /* GTMNSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = D67F8E31C63FCC361D7B656512F1B28E /* GTMNSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BE996E670C7823CC02BC067FDBBE1B4 /* NSArray+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 08CE4AA134E5C4F7FC079BA480553E14 /* NSArray+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		14B932A23F3B138397D538416FCC41F3 /* NSArray+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C0A7E57AF6A9F4457BBBE8BA26E1961D /* NSArray+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1B3B987E3B0F7D3B3141E95E252FA194 /* NSString+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = A7CCB787FF6A1BFA73F199BE35D79E31 /* NSString+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		346BB11938BE83AA4BC0206A750F5CEA /* NSString+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = F8C37EE5F5237B37750F5A129143C2B3 /* NSString+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		36930C3E31A4B85EE4579058A176F2D2 /* NSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = 5BDAEFEBFF15C02C798852D442DE17A9 /* NSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		3FE21A6A14694B62A6B2CD1A0A9BDCFB /* Pods-VDisk-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C41ED9A405E88457C8DA0D8D6D7CE233 /* Pods-VDisk-dummy.m */; };
+		49ADC7FEF930BF3EC9DBB68B14762898 /* UIColor+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = C065BD081FBDF388E74A8868D95F34BA /* UIColor+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4B40C347A85185DCAF257074CEEEFE50 /* VMacros.h in Headers */ = {isa = PBXBuildFile; fileRef = 488E56A085B681674466219FFC7DC603 /* VMacros.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4DEF804FAC07468ECEED9D60E80BC2F5 /* NSData+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A8AF5D5DE3704D85D0746640F66AE56 /* NSData+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		60BB668E78718A9F999B9D544D76CBD8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		6A39DD7BECE9CC75C14E4A4B53C44EEB /* UIView+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = CD9D96CEBE8674E559A0C5880DDF88F1 /* UIView+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6DC21A3F67040E7631C2AF8D6B86CCF9 /* UIControl+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 301B4293A9224E22FFD6D97ABEA2F3F6 /* UIControl+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7168259386B79F85DD95B507BDC825D4 /* VExtensions-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5CA684D022010B8052D98CDFBCEF4AD4 /* VExtensions-dummy.m */; };
+		73BD82E69562BB7452A481E4E91FB077 /* UIColor+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = D8D07A84610CB5A3E9AFAEC1CD4C1391 /* UIColor+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		74F80A5DD5D9C2CA00414CBE3B637DCD /* NSDate+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = B66C99A19A6FC1684F0901F0A0D192B2 /* NSDate+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		76445565868564CF067C277AB1097FA4 /* CGRect+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = D599EA7D2179663EE3ACC9B32440485F /* CGRect+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7C7EC63843EE87895F1B92C865FE2D16 /* NSData+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C9338AB9CE09AEC512224275FFBAD72D /* NSData+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		8A9D02EBA32F369464BB1ED7CA197073 /* NSDate+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F95358D2F2B96E7ACF83F5B8627391B /* NSDate+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		99A32B92FFA8496FEC0A93E91D972E0D /* NSObject+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2CF7177DBF6341DED1371C5B4DB05552 /* NSObject+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9B5D3362921147D18DB856D0F2E96F7F /* GTMNSString+HTML.m in Sources */ = {isa = PBXBuildFile; fileRef = FA1DEDEA6839EF3AF0BB08D26FFE7867 /* GTMNSString+HTML.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B478031E41CE8BE539016F2C2A11B0B2 /* CGRect+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = C90AFC1AAD42568A5AFBE2F9906C1E78 /* CGRect+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		B834B44E78CE1C23E3B5C993409C9C00 /* NSObject+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 200DC2D0EA17158533640FC41865FBB5 /* NSObject+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B96CAE70C2D25B19927682F1C99E103D /* UIView+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = ACA85B825D40B3A88E6BD8FAEBB2CF69 /* UIView+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C1040DA74BDAFEC36FDE34B3FE4CDF50 /* UIImage+Extensions.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AA542D10244084DB4A62B17FCE1CCD4 /* UIImage+Extensions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		E33A043CF8D8B47E58A0336DF493E1AC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */; };
+		E7A0966BEBD22DDC9E3C14B28B817FD7 /* UIControl+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = 5F3213D449A19F5DC60E3FFE100B2649 /* UIControl+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EDB28C3497BFB7EEF784556C189010FC /* NSString+HTML.h in Headers */ = {isa = PBXBuildFile; fileRef = 5DED5FD0FECB319F43051F6AF7986EE3 /* NSString+HTML.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F7C7E96C37216AE9F068580F1CC04A32 /* UIImage+Extensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EC6387DDF3C650384BF717D3DD808024 /* UIImage+Extensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FA5313D3F9AD64C4C993E68D4A68D895 /* VExtensions.h in Headers */ = {isa = PBXBuildFile; fileRef = EAA11D6247335F716984AD9308F7FEBC /* VExtensions.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		04FE6892BCB65BF5A4B01CE22C38BCA7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FEC4B412E27F857F06781E873FA328F;
+			remoteInfo = VExtensions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		08CE4AA134E5C4F7FC079BA480553E14 /* NSArray+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+Extensions.m"; path = "Source/VExtensions/NSArray+Extensions.m"; sourceTree = "<group>"; };
+		0F95358D2F2B96E7ACF83F5B8627391B /* NSDate+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSDate+Extensions.h"; path = "Source/VExtensions/NSDate+Extensions.h"; sourceTree = "<group>"; };
+		200DC2D0EA17158533640FC41865FBB5 /* NSObject+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSObject+Extensions.h"; path = "Source/VExtensions/NSObject+Extensions.h"; sourceTree = "<group>"; };
+		261551AE0BBCA0E4F2CEEFEBC297179E /* libPods-VDisk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VDisk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2CF7177DBF6341DED1371C5B4DB05552 /* NSObject+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSObject+Extensions.m"; path = "Source/VExtensions/NSObject+Extensions.m"; sourceTree = "<group>"; };
+		2D8660C6DD7006D78976D368602ADB4A /* VExtensions.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = VExtensions.xcconfig; sourceTree = "<group>"; };
+		301B4293A9224E22FFD6D97ABEA2F3F6 /* UIControl+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIControl+Extensions.m"; path = "Source/VExtensions/UIControl+Extensions.m"; sourceTree = "<group>"; };
+		488E56A085B681674466219FFC7DC603 /* VMacros.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VMacros.h; path = Source/VExtensions/VMacros.h; sourceTree = "<group>"; };
+		4AC4DFA4371E38A817D0F2F1A36F406F /* Pods-VDisk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDisk.release.xcconfig"; sourceTree = "<group>"; };
+		59B56E8DBE8F1BC2A0E2538A939669FA /* Pods-VDisk-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-VDisk-acknowledgements.plist"; sourceTree = "<group>"; };
+		5B15E1642A621E573C89562D410F38D5 /* Pods-VDisk-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDisk-frameworks.sh"; sourceTree = "<group>"; };
+		5BDAEFEBFF15C02C798852D442DE17A9 /* NSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+HTML.m"; path = "Source/VExtensions/NSString+HTML.m"; sourceTree = "<group>"; };
+		5CA684D022010B8052D98CDFBCEF4AD4 /* VExtensions-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "VExtensions-dummy.m"; sourceTree = "<group>"; };
+		5DED5FD0FECB319F43051F6AF7986EE3 /* NSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+HTML.h"; path = "Source/VExtensions/NSString+HTML.h"; sourceTree = "<group>"; };
+		5F3213D449A19F5DC60E3FFE100B2649 /* UIControl+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIControl+Extensions.h"; path = "Source/VExtensions/UIControl+Extensions.h"; sourceTree = "<group>"; };
+		63558EE95BB8F4CF72676781B7308F52 /* VExtensions-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "VExtensions-prefix.pch"; sourceTree = "<group>"; };
+		6AA542D10244084DB4A62B17FCE1CCD4 /* UIImage+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+Extensions.m"; path = "Source/VExtensions/UIImage+Extensions.m"; sourceTree = "<group>"; };
+		71A467943D16D24FB5149E9EC9C40F23 /* Pods-VDisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-VDisk.debug.xcconfig"; sourceTree = "<group>"; };
+		8A8AF5D5DE3704D85D0746640F66AE56 /* NSData+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSData+Extensions.h"; path = "Source/VExtensions/NSData+Extensions.h"; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		A7CCB787FF6A1BFA73F199BE35D79E31 /* NSString+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSString+Extensions.h"; path = "Source/VExtensions/NSString+Extensions.h"; sourceTree = "<group>"; };
+		ACA85B825D40B3A88E6BD8FAEBB2CF69 /* UIView+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+Extensions.m"; path = "Source/VExtensions/UIView+Extensions.m"; sourceTree = "<group>"; };
+		B66C99A19A6FC1684F0901F0A0D192B2 /* NSDate+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSDate+Extensions.m"; path = "Source/VExtensions/NSDate+Extensions.m"; sourceTree = "<group>"; };
+		C065BD081FBDF388E74A8868D95F34BA /* UIColor+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+Extensions.h"; path = "Source/VExtensions/UIColor+Extensions.h"; sourceTree = "<group>"; };
+		C0A7E57AF6A9F4457BBBE8BA26E1961D /* NSArray+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+Extensions.h"; path = "Source/VExtensions/NSArray+Extensions.h"; sourceTree = "<group>"; };
+		C1E4904457459C67BE4BA427B23F9832 /* libVExtensions.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libVExtensions.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		C41ED9A405E88457C8DA0D8D6D7CE233 /* Pods-VDisk-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-VDisk-dummy.m"; sourceTree = "<group>"; };
+		C90AFC1AAD42568A5AFBE2F9906C1E78 /* CGRect+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CGRect+Extensions.m"; path = "Source/VExtensions/CGRect+Extensions.m"; sourceTree = "<group>"; };
+		C9338AB9CE09AEC512224275FFBAD72D /* NSData+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSData+Extensions.m"; path = "Source/VExtensions/NSData+Extensions.m"; sourceTree = "<group>"; };
+		CA5D759AFE3A34F5216D796265C0A910 /* Pods-VDisk-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-VDisk-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CB82205F4658299455D320EFD0BFB994 /* Pods-VDisk-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-VDisk-resources.sh"; sourceTree = "<group>"; };
+		CD9D96CEBE8674E559A0C5880DDF88F1 /* UIView+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+Extensions.h"; path = "Source/VExtensions/UIView+Extensions.h"; sourceTree = "<group>"; };
+		CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		D599EA7D2179663EE3ACC9B32440485F /* CGRect+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CGRect+Extensions.h"; path = "Source/VExtensions/CGRect+Extensions.h"; sourceTree = "<group>"; };
+		D67F8E31C63FCC361D7B656512F1B28E /* GTMNSString+HTML.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "GTMNSString+HTML.h"; path = "Source/VExtensions/GTMNSString+HTML.h"; sourceTree = "<group>"; };
+		D8D07A84610CB5A3E9AFAEC1CD4C1391 /* UIColor+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+Extensions.m"; path = "Source/VExtensions/UIColor+Extensions.m"; sourceTree = "<group>"; };
+		EAA11D6247335F716984AD9308F7FEBC /* VExtensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = VExtensions.h; path = Source/VExtensions/VExtensions.h; sourceTree = "<group>"; };
+		EC6387DDF3C650384BF717D3DD808024 /* UIImage+Extensions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+Extensions.h"; path = "Source/VExtensions/UIImage+Extensions.h"; sourceTree = "<group>"; };
+		F8C37EE5F5237B37750F5A129143C2B3 /* NSString+Extensions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSString+Extensions.m"; path = "Source/VExtensions/NSString+Extensions.m"; sourceTree = "<group>"; };
+		FA1DEDEA6839EF3AF0BB08D26FFE7867 /* GTMNSString+HTML.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "GTMNSString+HTML.m"; path = "Source/VExtensions/GTMNSString+HTML.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		876EB5031F4D0C979E7F1BC4897B1FB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60BB668E78718A9F999B9D544D76CBD8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C402CC68377A971272EB930287472A01 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E33A043CF8D8B47E58A0336DF493E1AC /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		22E5DCB6FAB91CFC311D8AC465C16186 /* VExtensions */ = {
+			isa = PBXGroup;
+			children = (
+				D599EA7D2179663EE3ACC9B32440485F /* CGRect+Extensions.h */,
+				C90AFC1AAD42568A5AFBE2F9906C1E78 /* CGRect+Extensions.m */,
+				D67F8E31C63FCC361D7B656512F1B28E /* GTMNSString+HTML.h */,
+				FA1DEDEA6839EF3AF0BB08D26FFE7867 /* GTMNSString+HTML.m */,
+				C0A7E57AF6A9F4457BBBE8BA26E1961D /* NSArray+Extensions.h */,
+				08CE4AA134E5C4F7FC079BA480553E14 /* NSArray+Extensions.m */,
+				8A8AF5D5DE3704D85D0746640F66AE56 /* NSData+Extensions.h */,
+				C9338AB9CE09AEC512224275FFBAD72D /* NSData+Extensions.m */,
+				0F95358D2F2B96E7ACF83F5B8627391B /* NSDate+Extensions.h */,
+				B66C99A19A6FC1684F0901F0A0D192B2 /* NSDate+Extensions.m */,
+				200DC2D0EA17158533640FC41865FBB5 /* NSObject+Extensions.h */,
+				2CF7177DBF6341DED1371C5B4DB05552 /* NSObject+Extensions.m */,
+				A7CCB787FF6A1BFA73F199BE35D79E31 /* NSString+Extensions.h */,
+				F8C37EE5F5237B37750F5A129143C2B3 /* NSString+Extensions.m */,
+				5DED5FD0FECB319F43051F6AF7986EE3 /* NSString+HTML.h */,
+				5BDAEFEBFF15C02C798852D442DE17A9 /* NSString+HTML.m */,
+				C065BD081FBDF388E74A8868D95F34BA /* UIColor+Extensions.h */,
+				D8D07A84610CB5A3E9AFAEC1CD4C1391 /* UIColor+Extensions.m */,
+				5F3213D449A19F5DC60E3FFE100B2649 /* UIControl+Extensions.h */,
+				301B4293A9224E22FFD6D97ABEA2F3F6 /* UIControl+Extensions.m */,
+				EC6387DDF3C650384BF717D3DD808024 /* UIImage+Extensions.h */,
+				6AA542D10244084DB4A62B17FCE1CCD4 /* UIImage+Extensions.m */,
+				CD9D96CEBE8674E559A0C5880DDF88F1 /* UIView+Extensions.h */,
+				ACA85B825D40B3A88E6BD8FAEBB2CF69 /* UIView+Extensions.m */,
+				EAA11D6247335F716984AD9308F7FEBC /* VExtensions.h */,
+				488E56A085B681674466219FFC7DC603 /* VMacros.h */,
+				ED33D7C0E8DE1CA6819321B773024023 /* Support Files */,
+			);
+			path = VExtensions;
+			sourceTree = "<group>";
+		};
+		3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				CEC22C73C1608DFA5D5D78BDCB218219 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		779652F7CA0F391023D69C09C54205CD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				22E5DCB6FAB91CFC311D8AC465C16186 /* VExtensions */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				779652F7CA0F391023D69C09C54205CD /* Pods */,
+				A7D42A4E808DEA3F179518B8BB8E91E6 /* Products */,
+				FF842BAA062E3A9578B34B90C81C5776 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		A7D42A4E808DEA3F179518B8BB8E91E6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				261551AE0BBCA0E4F2CEEFEBC297179E /* libPods-VDisk.a */,
+				C1E4904457459C67BE4BA427B23F9832 /* libVExtensions.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DCAB2B7CDE207B3958B6CB957FCC758 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E20B9683FB5622654274737A70B382DD /* Pods-VDisk */ = {
+			isa = PBXGroup;
+			children = (
+				CA5D759AFE3A34F5216D796265C0A910 /* Pods-VDisk-acknowledgements.markdown */,
+				59B56E8DBE8F1BC2A0E2538A939669FA /* Pods-VDisk-acknowledgements.plist */,
+				C41ED9A405E88457C8DA0D8D6D7CE233 /* Pods-VDisk-dummy.m */,
+				5B15E1642A621E573C89562D410F38D5 /* Pods-VDisk-frameworks.sh */,
+				CB82205F4658299455D320EFD0BFB994 /* Pods-VDisk-resources.sh */,
+				71A467943D16D24FB5149E9EC9C40F23 /* Pods-VDisk.debug.xcconfig */,
+				4AC4DFA4371E38A817D0F2F1A36F406F /* Pods-VDisk.release.xcconfig */,
+			);
+			name = "Pods-VDisk";
+			path = "Target Support Files/Pods-VDisk";
+			sourceTree = "<group>";
+		};
+		ED33D7C0E8DE1CA6819321B773024023 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2D8660C6DD7006D78976D368602ADB4A /* VExtensions.xcconfig */,
+				5CA684D022010B8052D98CDFBCEF4AD4 /* VExtensions-dummy.m */,
+				63558EE95BB8F4CF72676781B7308F52 /* VExtensions-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/VExtensions";
+			sourceTree = "<group>";
+		};
+		FF842BAA062E3A9578B34B90C81C5776 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				E20B9683FB5622654274737A70B382DD /* Pods-VDisk */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		F1798389998E6F908E89A56B57E8703B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76445565868564CF067C277AB1097FA4 /* CGRect+Extensions.h in Headers */,
+				09671CC62CA39A1DC00C8AB654A6692A /* GTMNSString+HTML.h in Headers */,
+				14B932A23F3B138397D538416FCC41F3 /* NSArray+Extensions.h in Headers */,
+				4DEF804FAC07468ECEED9D60E80BC2F5 /* NSData+Extensions.h in Headers */,
+				8A9D02EBA32F369464BB1ED7CA197073 /* NSDate+Extensions.h in Headers */,
+				B834B44E78CE1C23E3B5C993409C9C00 /* NSObject+Extensions.h in Headers */,
+				1B3B987E3B0F7D3B3141E95E252FA194 /* NSString+Extensions.h in Headers */,
+				EDB28C3497BFB7EEF784556C189010FC /* NSString+HTML.h in Headers */,
+				49ADC7FEF930BF3EC9DBB68B14762898 /* UIColor+Extensions.h in Headers */,
+				E7A0966BEBD22DDC9E3C14B28B817FD7 /* UIControl+Extensions.h in Headers */,
+				F7C7E96C37216AE9F068580F1CC04A32 /* UIImage+Extensions.h in Headers */,
+				6A39DD7BECE9CC75C14E4A4B53C44EEB /* UIView+Extensions.h in Headers */,
+				FA5313D3F9AD64C4C993E68D4A68D895 /* VExtensions.h in Headers */,
+				4B40C347A85185DCAF257074CEEEFE50 /* VMacros.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		8FEC4B412E27F857F06781E873FA328F /* VExtensions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3BC7ADC27C73A8053523AB64120E1B7B /* Build configuration list for PBXNativeTarget "VExtensions" */;
+			buildPhases = (
+				B7EF1D76AE15AC7149A337C2D928446C /* Sources */,
+				C402CC68377A971272EB930287472A01 /* Frameworks */,
+				F1798389998E6F908E89A56B57E8703B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = VExtensions;
+			productName = VExtensions;
+			productReference = C1E4904457459C67BE4BA427B23F9832 /* libVExtensions.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		BCDCB51B954CBD7267568255EAED0B7C /* Pods-VDisk */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 35CAA96551C5017AD6E6955C36D26EEA /* Build configuration list for PBXNativeTarget "Pods-VDisk" */;
+			buildPhases = (
+				CD0E79F7DAD5E64B6F30111BA25553E8 /* Sources */,
+				876EB5031F4D0C979E7F1BC4897B1FB1 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A66DB431EAC67B4EEED88976FAEEAE95 /* PBXTargetDependency */,
+			);
+			name = "Pods-VDisk";
+			productName = "Pods-VDisk";
+			productReference = 261551AE0BBCA0E4F2CEEFEBC297179E /* libPods-VDisk.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = A7D42A4E808DEA3F179518B8BB8E91E6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BCDCB51B954CBD7267568255EAED0B7C /* Pods-VDisk */,
+				8FEC4B412E27F857F06781E873FA328F /* VExtensions */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B7EF1D76AE15AC7149A337C2D928446C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B478031E41CE8BE539016F2C2A11B0B2 /* CGRect+Extensions.m in Sources */,
+				9B5D3362921147D18DB856D0F2E96F7F /* GTMNSString+HTML.m in Sources */,
+				0BE996E670C7823CC02BC067FDBBE1B4 /* NSArray+Extensions.m in Sources */,
+				7C7EC63843EE87895F1B92C865FE2D16 /* NSData+Extensions.m in Sources */,
+				74F80A5DD5D9C2CA00414CBE3B637DCD /* NSDate+Extensions.m in Sources */,
+				99A32B92FFA8496FEC0A93E91D972E0D /* NSObject+Extensions.m in Sources */,
+				346BB11938BE83AA4BC0206A750F5CEA /* NSString+Extensions.m in Sources */,
+				36930C3E31A4B85EE4579058A176F2D2 /* NSString+HTML.m in Sources */,
+				73BD82E69562BB7452A481E4E91FB077 /* UIColor+Extensions.m in Sources */,
+				6DC21A3F67040E7631C2AF8D6B86CCF9 /* UIControl+Extensions.m in Sources */,
+				C1040DA74BDAFEC36FDE34B3FE4CDF50 /* UIImage+Extensions.m in Sources */,
+				B96CAE70C2D25B19927682F1C99E103D /* UIView+Extensions.m in Sources */,
+				7168259386B79F85DD95B507BDC825D4 /* VExtensions-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CD0E79F7DAD5E64B6F30111BA25553E8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3FE21A6A14694B62A6B2CD1A0A9BDCFB /* Pods-VDisk-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A66DB431EAC67B4EEED88976FAEEAE95 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = VExtensions;
+			target = 8FEC4B412E27F857F06781E873FA328F /* VExtensions */;
+			targetProxy = 04FE6892BCB65BF5A4B01CE22C38BCA7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		3D145023F4D75460717E0A519550FA50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8660C6DD7006D78976D368602ADB4A /* VExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VExtensions/VExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		47BEF9D903506B003EA5C2B249729489 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		A57CACB2A9AD7A1A5673CD7CC2B4B38D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AC4DFA4371E38A817D0F2F1A36F406F /* Pods-VDisk.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		AAF678CED40D3499169D10F63CA0719E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C18D133C2BE6B12C7720080A510C4B6A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2D8660C6DD7006D78976D368602ADB4A /* VExtensions.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/VExtensions/VExtensions-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		E5EBDE80FABF66DB355B0BFF682D4035 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 71A467943D16D24FB5149E9EC9C40F23 /* Pods-VDisk.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				47BEF9D903506B003EA5C2B249729489 /* Debug */,
+				AAF678CED40D3499169D10F63CA0719E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		35CAA96551C5017AD6E6955C36D26EEA /* Build configuration list for PBXNativeTarget "Pods-VDisk" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E5EBDE80FABF66DB355B0BFF682D4035 /* Debug */,
+				A57CACB2A9AD7A1A5673CD7CC2B4B38D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3BC7ADC27C73A8053523AB64120E1B7B /* Build configuration list for PBXNativeTarget "VExtensions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3D145023F4D75460717E0A519550FA50 /* Debug */,
+				C18D133C2BE6B12C7720080A510C4B6A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

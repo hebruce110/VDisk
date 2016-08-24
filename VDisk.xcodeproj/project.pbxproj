@@ -14,6 +14,8 @@
 		321515DE1D6DFB4C0040F56E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 321515DD1D6DFB4C0040F56E /* Assets.xcassets */; };
 		321515E11D6DFB4C0040F56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321515DF1D6DFB4C0040F56E /* LaunchScreen.storyboard */; };
 		321515EC1D6DFB4C0040F56E /* VDiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321515EB1D6DFB4C0040F56E /* VDiskTests.m */; };
+		321515FD1D6E01EC0040F56E /* DIBackUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 321515FB1D6E01EC0040F56E /* DIBackUp.m */; };
+		566B3E07841E4760AEA77EEA /* libPods-VDisk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0551ED04287B3E262609C8 /* libPods-VDisk.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +29,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0E0551ED04287B3E262609C8 /* libPods-VDisk.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-VDisk.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D7A7D863205EC5D528024D1 /* Pods-VDisk.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDisk.release.xcconfig"; path = "Pods/Target Support Files/Pods-VDisk/Pods-VDisk.release.xcconfig"; sourceTree = "<group>"; };
 		321515CE1D6DFB4C0040F56E /* VDisk.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = VDisk.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		321515D21D6DFB4C0040F56E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		321515D41D6DFB4C0040F56E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -40,6 +44,9 @@
 		321515E71D6DFB4C0040F56E /* VDiskTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = VDiskTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		321515EB1D6DFB4C0040F56E /* VDiskTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = VDiskTests.m; sourceTree = "<group>"; };
 		321515ED1D6DFB4C0040F56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		321515FA1D6E01EC0040F56E /* DIBackUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIBackUp.h; sourceTree = "<group>"; };
+		321515FB1D6E01EC0040F56E /* DIBackUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIBackUp.m; sourceTree = "<group>"; };
+		96D56F484DCB76C3672539E6 /* Pods-VDisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDisk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDisk/Pods-VDisk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +54,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				566B3E07841E4760AEA77EEA /* libPods-VDisk.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +74,8 @@
 				321515D01D6DFB4C0040F56E /* VDisk */,
 				321515EA1D6DFB4C0040F56E /* VDiskTests */,
 				321515CF1D6DFB4C0040F56E /* Products */,
+				495B63FC18E22B875733BDEF /* Pods */,
+				C482B55BD69E226840910703 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -81,6 +91,7 @@
 		321515D01D6DFB4C0040F56E /* VDisk */ = {
 			isa = PBXGroup;
 			children = (
+				321515F61D6E01EC0040F56E /* Source */,
 				321515D41D6DFB4C0040F56E /* AppDelegate.h */,
 				321515D51D6DFB4C0040F56E /* AppDelegate.m */,
 				321515D71D6DFB4C0040F56E /* ViewController.h */,
@@ -111,6 +122,64 @@
 			path = VDiskTests;
 			sourceTree = "<group>";
 		};
+		321515F61D6E01EC0040F56E /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				321515FC1D6E01EC0040F56E /* ThirdParty */,
+				321515F71D6E01EC0040F56E /* Category */,
+				321515F81D6E01EC0040F56E /* DB */,
+				321515F91D6E01EC0040F56E /* Manager */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		321515F71D6E01EC0040F56E /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		321515F81D6E01EC0040F56E /* DB */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = DB;
+			sourceTree = "<group>";
+		};
+		321515F91D6E01EC0040F56E /* Manager */ = {
+			isa = PBXGroup;
+			children = (
+				321515FA1D6E01EC0040F56E /* DIBackUp.h */,
+				321515FB1D6E01EC0040F56E /* DIBackUp.m */,
+			);
+			path = Manager;
+			sourceTree = "<group>";
+		};
+		321515FC1D6E01EC0040F56E /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		495B63FC18E22B875733BDEF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				96D56F484DCB76C3672539E6 /* Pods-VDisk.debug.xcconfig */,
+				1D7A7D863205EC5D528024D1 /* Pods-VDisk.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		C482B55BD69E226840910703 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0E0551ED04287B3E262609C8 /* libPods-VDisk.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -118,9 +187,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 321515F01D6DFB4C0040F56E /* Build configuration list for PBXNativeTarget "VDisk" */;
 			buildPhases = (
+				C4FE998A47DCBB5C6B126FEE /* [CP] Check Pods Manifest.lock */,
 				321515CA1D6DFB4C0040F56E /* Sources */,
 				321515CB1D6DFB4C0040F56E /* Frameworks */,
 				321515CC1D6DFB4C0040F56E /* Resources */,
+				03E8A87A5F984A0E004B810A /* [CP] Embed Pods Frameworks */,
+				62C7741F315BDCE8E91A36FB /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -207,11 +279,60 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		03E8A87A5F984A0E004B810A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDisk/Pods-VDisk-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		62C7741F315BDCE8E91A36FB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-VDisk/Pods-VDisk-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4FE998A47DCBB5C6B126FEE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		321515CA1D6DFB4C0040F56E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				321515FD1D6E01EC0040F56E /* DIBackUp.m in Sources */,
 				321515D91D6DFB4C0040F56E /* ViewController.m in Sources */,
 				321515D61D6DFB4C0040F56E /* AppDelegate.m in Sources */,
 				321515D31D6DFB4C0040F56E /* main.m in Sources */,
@@ -342,6 +463,7 @@
 		};
 		321515F11D6DFB4C0040F56E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 96D56F484DCB76C3672539E6 /* Pods-VDisk.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -356,6 +478,7 @@
 		};
 		321515F21D6DFB4C0040F56E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D7A7D863205EC5D528024D1 /* Pods-VDisk.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
@@ -411,6 +534,7 @@
 				321515F21D6DFB4C0040F56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		321515F31D6DFB4C0040F56E /* Build configuration list for PBXNativeTarget "VDiskTests" */ = {
 			isa = XCConfigurationList;
@@ -419,6 +543,7 @@
 				321515F51D6DFB4C0040F56E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
