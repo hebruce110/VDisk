@@ -15,6 +15,7 @@
 		321515E11D6DFB4C0040F56E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 321515DF1D6DFB4C0040F56E /* LaunchScreen.storyboard */; };
 		321515EC1D6DFB4C0040F56E /* VDiskTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 321515EB1D6DFB4C0040F56E /* VDiskTests.m */; };
 		321515FD1D6E01EC0040F56E /* DIBackUp.m in Sources */ = {isa = PBXBuildFile; fileRef = 321515FB1D6E01EC0040F56E /* DIBackUp.m */; };
+		321516011D6E0E910040F56E /* DIMusicManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 321516001D6E0E910040F56E /* DIMusicManager.m */; };
 		566B3E07841E4760AEA77EEA /* libPods-VDisk.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 0E0551ED04287B3E262609C8 /* libPods-VDisk.a */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +48,8 @@
 		321515FA1D6E01EC0040F56E /* DIBackUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIBackUp.h; sourceTree = "<group>"; };
 		321515FB1D6E01EC0040F56E /* DIBackUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIBackUp.m; sourceTree = "<group>"; };
 		321515FE1D6E03DD0040F56E /* App_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_PrefixHeader.pch; sourceTree = "<group>"; };
+		321515FF1D6E0E910040F56E /* DIMusicManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIMusicManager.h; sourceTree = "<group>"; };
+		321516001D6E0E910040F56E /* DIMusicManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIMusicManager.m; sourceTree = "<group>"; };
 		96D56F484DCB76C3672539E6 /* Pods-VDisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDisk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDisk/Pods-VDisk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -152,6 +155,8 @@
 		321515F91D6E01EC0040F56E /* Manager */ = {
 			isa = PBXGroup;
 			children = (
+				321515FF1D6E0E910040F56E /* DIMusicManager.h */,
+				321516001D6E0E910040F56E /* DIMusicManager.m */,
 				321515FA1D6E01EC0040F56E /* DIBackUp.h */,
 				321515FB1D6E01EC0040F56E /* DIBackUp.m */,
 			);
@@ -336,6 +341,7 @@
 			files = (
 				321515FD1D6E01EC0040F56E /* DIBackUp.m in Sources */,
 				321515D91D6DFB4C0040F56E /* ViewController.m in Sources */,
+				321516011D6E0E910040F56E /* DIMusicManager.m in Sources */,
 				321515D61D6DFB4C0040F56E /* AppDelegate.m in Sources */,
 				321515D31D6DFB4C0040F56E /* main.m in Sources */,
 			);
