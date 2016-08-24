@@ -1,0 +1,16 @@
+//
+//  App_PrefixHeader.pch
+//  iDisk
+//
+//  Created by Bruce He on 16/1/17.
+//  Copyright © 2016年 heyuan110.com. All rights reserved.
+//
+
+#ifdef __OBJC__
+#import <Availability.h>
+#import <UIKit/UIKit.h>
+#import <Foundation/Foundation.h>
+#import <AssetsLibrary/AssetsLibrary.h>
+#import "VExtensions.h"
+#endif
+
