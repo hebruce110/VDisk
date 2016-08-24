@@ -46,6 +46,7 @@
 		321515ED1D6DFB4C0040F56E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		321515FA1D6E01EC0040F56E /* DIBackUp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DIBackUp.h; sourceTree = "<group>"; };
 		321515FB1D6E01EC0040F56E /* DIBackUp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DIBackUp.m; sourceTree = "<group>"; };
+		321515FE1D6E03DD0040F56E /* App_PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = App_PrefixHeader.pch; sourceTree = "<group>"; };
 		96D56F484DCB76C3672539E6 /* Pods-VDisk.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-VDisk.debug.xcconfig"; path = "Pods/Target Support Files/Pods-VDisk/Pods-VDisk.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -108,6 +109,7 @@
 		321515D11D6DFB4C0040F56E /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				321515FE1D6E03DD0040F56E /* App_PrefixHeader.pch */,
 				321515D21D6DFB4C0040F56E /* main.m */,
 			);
 			name = "Supporting Files";
@@ -468,6 +470,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VDisk/App_PrefixHeader.pch";
 				INFOPLIST_FILE = VDisk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdisk.app;
@@ -483,6 +486,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				GCC_PREFIX_HEADER = "$(SRCROOT)/VDisk/App_PrefixHeader.pch";
 				INFOPLIST_FILE = VDisk/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.vdisk.app;
